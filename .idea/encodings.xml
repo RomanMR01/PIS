@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/Controller/LoginController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Controller/MainController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Main.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/Model/MainModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/Controller/LoginControllerTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
