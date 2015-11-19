@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="799e2bb0-3abe-410b-96ec-be2298476086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Model/MainModel.java" afterPath="$PROJECT_DIR$/src/main/java/Model/MainModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="E:\НАВЧАННЯ\W\PIS\target\DB.s3db" afterPath="" />
+      <change type="DELETED" beforePath="E:\НАВЧАННЯ\W\PIS\target\TrainingCourses-1.0-jar-with-dependencies.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\НАВЧАННЯ\W\PIS\target\TrainingCourses-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\НАВЧАННЯ\W\PIS\target\log_file.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB.s3db" afterPath="$PROJECT_DIR$/DB.s3db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Model/MainModel.class" afterPath="$PROJECT_DIR$/target/classes/Model/MainModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Controller.LoginControllerTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/Controller.LoginControllerTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Model.MainModelTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/Model.MainModelTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Model.TeacherTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/Model.TeacherTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Controller.LoginControllerTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Controller.LoginControllerTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Model.MainModelTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Model.MainModelTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Model.TeacherTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Model.TeacherTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log_file.log" afterPath="$PROJECT_DIR$/log_file.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PIS.iws" />
@@ -31,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -71,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainModel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Model/MainModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41186163">
+            <state vertical-scroll-proportion="0.0">
               <caret line="443" column="74" selection-start-line="443" selection-start-column="74" selection-end-line="443" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -139,12 +152,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeacherTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TeacherTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Model/TeacherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.64415157">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -182,10 +197,10 @@
         <option value="$PROJECT_DIR$/src/test/java/Model/MainModelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/test/java/Controller/LoginControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/Model/TeacherTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Model/MainModel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -794,6 +809,13 @@
       <option name="number" value="Default" />
       <updated>1447772309016</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit 2">
+      <created>1447962957965</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447962957965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -837,7 +859,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1497,14 +1520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1522,14 +1537,6 @@
             <element signature="e#6917#6918#0" expanded="true" />
             <element signature="e#6947#6948#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Model/TeacherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1555,7 +1562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Model/MainModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41186163">
+        <state vertical-scroll-proportion="0.0">
           <caret line="443" column="74" selection-start-line="443" selection-start-column="74" selection-end-line="443" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1563,6 +1570,24 @@
             <element signature="e#4329#4337#0" expanded="true" />
             <element signature="e#4609#4617#0" expanded="true" />
             <element signature="e#5417#5425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Model/TeacherTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64415157">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

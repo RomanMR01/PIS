@@ -1,6 +1,0 @@
-2015-11-19 19:46:03 ERROR Model.MainModel:clearDB:448 - Не вдалося видалити дані з бази даних!
-2015-11-19 19:46:42 ERROR Model.MainModel:clearDB:448 - Не вдалося видалити дані з бази даних!
-2015-11-19 19:52:40 ERROR Model.MainModel:getTeacherDataModel:429 - Не вдалося завантажити дані з БД!
-2015-11-19 19:58:51 ERROR Model.MainModel:initDB:88 - Не вдалося підключитись до БД!
-2015-11-19 20:00:13 ERROR Model.MainModel:getTeacherDataModel:429 - Не вдалося завантажити дані з БД!
-2015-11-19 20:00:18 ERROR Model.MainModel:clearDB:448 - Не вдалося видалити дані з бази даних!
