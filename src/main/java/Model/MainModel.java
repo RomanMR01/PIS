@@ -441,7 +441,7 @@ public class MainModel {
             Виклик повідомлення про помилку
              */
             logger.error("Не вдалося видалити дані з бази даних!");
-            errorAlert("Не вдалося видалити дані з бази даних!", "ПОМИЛКА");
+            errorAlert("Не вдалося видалити дані з бази даних!", "ПОМИЛКА!");
         }
     }
 
@@ -455,7 +455,5 @@ public class MainModel {
         alert.setHeaderText(null);
         alert.setContentText(message);
         alert.showAndWait();
-
     }
-
 }
