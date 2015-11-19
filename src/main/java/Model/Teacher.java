@@ -5,20 +5,30 @@ package Model;
  */
 
 /*
-  POJO ���� ��� ����� ������ �� �� �� GUI
-*/
+POJO що реалізує основні методи для класу Teacher
+На основі цього класу відбувається обмін даними GUI з Базою даних.
+ */
+    /*
+    WARNING!
+    Назви гетерів і сетерів не змінювати.
+    Вони використовуються при ініціалізації класу initialize() в MainController
+    idColumn.setCellValueFactory(new PropertyValueFactory<Teacher, Integer>("id"));//getId = "id", getName = "name"
+     */
 public class Teacher {
 
-    private int id;
-    private String name;
-    private long phone;
-    private int exp;
-    private String type;
-    private String subject;
-    private double rate;
-    private double salary;
+    private int id;        // id для БД
+    private String name;   // ім'я викладача
+    private long phone;    // номер телефону
+    private int exp;       // досвід роботи(стаж)
+    private String type;   //тип заняття (лекція або практична)
+    private String subject;//назва предмету
+    private double rate;   //оплата за місяць з певного предмету
+    private double salary; //заробітня плата за місяць
 
-    public Teacher(int id, String name,long phone,int exp, String type,String subject,double rate,double salary) {
+    /*
+    Констуктор для ініціалізації даних
+     */
+    public Teacher(int id, String name, long phone, int exp, String type, String subject, double rate, double salary) {
         this.id = id;
         this.name = name;
         this.phone = phone;
@@ -32,77 +42,67 @@ public class Teacher {
     public Teacher() {
     }
 
-    public void setId(int id)
-    {
-        this.id = id;
-    }
-
-    public int getId()
-    {
+    public int getId() {
         return id;
     }
 
-    public void setName(String name)
-    {
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName()
-    {
-        return name;
+    public long getPhone() {
+        return phone;
     }
-    public void setPhone(long phone)
-    {
+
+    public void setPhone(long phone) {
         this.phone = phone;
     }
 
-    public long getPhone()
-    {
-        return phone;
+    public int getExp() {
+        return exp;
     }
-    public void setExp(int exp)
-    {
+
+    public void setExp(int exp) {
         this.exp = exp;
     }
 
-    public int getExp()
-    {
-        return exp;
+    public String getType() {
+        return type;
     }
-    public void setType(String type)
-    {
+
+    public void setType(String type) {
         this.type = type;
     }
 
-    public String getType()
-    {
-        return type;
+    public String getSubject() {
+        return subject;
     }
-    public void setSubject(String subject)
-    {
+
+    public void setSubject(String subject) {
         this.subject = subject;
     }
 
-    public String getSubject()
-    {
-        return subject;
+    public double getRate() {
+        return rate;
     }
-    public void setRate(double rate)
-    {
+
+    public void setRate(double rate) {
         this.rate = rate;
     }
 
-    public double getRate()
-    {
-        return rate;
-    }
-    public void setSalary(double salary)
-    {
-        this.salary = salary;
+    public double getSalary() {
+        return salary;
     }
 
-    public double getSalary()
-    {
-        return salary;
+    public void setSalary(double salary) {
+        this.salary = salary;
     }
 }
