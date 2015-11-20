@@ -18,6 +18,7 @@ import org.apache.log4j.Logger;
  */
 public class MainController {
 
+
     /*
     Логер для MainController
      */
