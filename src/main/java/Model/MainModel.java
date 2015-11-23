@@ -34,6 +34,7 @@ public class MainModel {
      */
     private Connection dbConnection = null;
     private Statement statement = null;
+
     /*
     Колеція для зберігання інформації по вчителях
      */
