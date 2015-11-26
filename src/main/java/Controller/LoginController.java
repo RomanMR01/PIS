@@ -11,6 +11,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
+import Alert.AlertMessage;
 
 /**
  * Created by Vikno on 18.11.2015.
@@ -25,6 +26,8 @@ public class LoginController {
     Логер для класу LoginController
      */
     private static final Logger log = Logger.getLogger(LoginController.class);
+
+    AlertMessage alertMessage = new AlertMessage();
 
     /*
      -------Don't look on it--------
@@ -80,18 +83,12 @@ public class LoginController {
             Запис помилки в log файл та вивід інформації на екран
              */
             log.info("Введено некоректні дані!");
-            errorAlert("Введено некоректні дані!");
+            errorAlert("Введено некоректні дані!","Помилка!");
         }
     }
 
-    private void errorAlert(String message) {
-
-        Alert alert = new Alert(Alert.AlertType.WARNING);
-        alert.setTitle("ПОМИЛКА!");
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
-
+    private void errorAlert(String message,String title) {
+          alertMessage.showAlert(message,title,0);
     }
 
     /*

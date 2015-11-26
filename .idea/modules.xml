@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PIS.iml" filepath="$PROJECT_DIR$/PIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TrainingCourses.iml" filepath="$PROJECT_DIR$/TrainingCourses.iml" />
     </modules>
   </component>
 </project>

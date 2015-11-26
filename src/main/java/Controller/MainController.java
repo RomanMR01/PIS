@@ -1,6 +1,6 @@
 package Controller;
 
-import Model.MainModel;
+import Model.DBModel;
 import Model.Teacher;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import org.apache.log4j.Logger;
+import Alert.AlertMessage;
 
 /**
  * Created by Vikno on 17.11.2015.
@@ -23,6 +24,8 @@ public class MainController {
     Логер для MainController
      */
     private static final Logger log = Logger.getLogger(MainController.class);
+
+    AlertMessage alertMessage = new AlertMessage();
 
     /*
     Поля для вводу анкетних даних викладача
@@ -63,9 +66,9 @@ public class MainController {
     @FXML
     Button helpButton;//Довідка
     /*
-    Створення екземпляру класу MainModel для подальшого обміну даними
+    Створення екземпляру класу DBModel для подальшого обміну даними
      */
-    MainModel mainModel;
+    Model.DBModel mainModel;
     /*
     Список для зберігання всієї інформації
      */
@@ -172,7 +175,7 @@ public class MainController {
         updateButton.setDisable(false);
 
 
-        mainModel = new MainModel();
+        mainModel = new Model.DBModel();
         mainModel.setTable(teacherData);
 
     }
@@ -190,7 +193,7 @@ public class MainController {
         /*
         Отримання таблиці з БД і оновлення її на GUI
          */
-        mainModel = new MainModel();
+        mainModel = new Model.DBModel();
         teacherData = mainModel.getTeacherDataModel();
         tableTeachers.setItems(teacherData);//Оновлює дані в TableView
 
@@ -234,7 +237,7 @@ public class MainController {
     @FXML
     public void tryConnection() throws ClassNotFoundException {
 
-        mainModel = new MainModel();
+        mainModel = new DBModel();
         mainModel.connAlert();//Виклик повідомлення про стан підключення до БД
     }
 
@@ -249,7 +252,7 @@ public class MainController {
          */
 
         try {
-            mainModel = new MainModel();
+            mainModel = new Model.DBModel();
             teacherData = mainModel.getTeacherDataModel();
             tableTeachers.setItems(teacherData);
         } catch (Exception e) {
@@ -318,26 +321,14 @@ public class MainController {
      Вивід повідомлення про різні помилки
     */
     private void errorAlert(String message, String title) {
-
-        Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
-
+        alertMessage.showAlert(message,title,0);
     }
 
     /*
       Вивід повідомлення про певні дії
      */
     private void infoAlert(String message, String title) {
-
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle(title);
-        alert.setHeaderText(null);
-        alert.setContentText(message);
-        alert.showAndWait();
-
+        alertMessage.showAlert(message,title,2);
     }
 }
 
