@@ -1,9 +1,0 @@
-2015-11-21 11:45:51 ERROR Model.DBModel:getTeacherDataModel:424 - Не вдалося завантажити дані з БД!
-2015-11-21 11:45:53 ERROR Model.DBModel:clearDB:443 - Не вдалося видалити дані з бази даних!
-2015-11-21 11:46:12 ERROR Model.DBModel:writeToDB:298 - Не вдалося створити нову таблицю в базі даних!
-2015-11-21 11:46:18 ERROR Model.DBModel:writeToDB:339 - Не вдалося записати дані в базу даних!
-2015-11-21 11:46:22 ERROR Model.DBModel:writeToDB:339 - Не вдалося записати дані в базу даних!
-2015-11-21 11:46:27 ERROR Model.DBModel:writeToDB:339 - Не вдалося записати дані в базу даних!
-2015-11-21 11:46:31 ERROR Model.DBModel:writeToDB:339 - Не вдалося записати дані в базу даних!
-2015-11-21 11:46:54 INFO  Controller.LoginController:checkLogin:82 - Введено некоректні дані!
-2015-11-23 11:38:53 ERROR Model.DBModel:initDB:86 - Не вдалося підключитись до БД!
